@@ -13,10 +13,8 @@ import glob
 def run():
     """ Corre el programa completamente"""
     cont=0
-    files=open_several_files("slices/**/*")
-    #files=open_several_files("A")
-    #files=open_several_files()        
-    
+    files=open_several_files()
+   
     for i in files:
         cont+=1
         try:#se usa el try para evitar que muestre error cuando se trata de leer un archivo que no es .dcm
@@ -39,9 +37,7 @@ def open_several_files(carpeta=None):
     
     files = []
     if (carpeta==None): #Determina cual de las opciones va abrir
-        direct="Artroresonancia/**/*"
-    elif(carpeta=="A" or carpeta=="B" or carpeta=="C" or carpeta=="D" or carpeta=="E" or carpeta=="F" or carpeta=="G" or carpeta=="H"):
-        direct="ArtroResonancia/"+carpeta+"/*"
+        direct="slices/**/*"
     else:
         direct=carpeta
     

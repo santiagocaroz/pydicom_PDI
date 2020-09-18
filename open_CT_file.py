@@ -9,12 +9,12 @@ import pydicom
 import matplotlib.pyplot as plt
 import numpy as np
 
-filename="1DCM.dcm"
+filename="slices/series 002[CT-Crane SPC]/1.3.6.1.4.1.5962.99.1.2786334768.1849416866.1385765836848.6.0.dcm"
 
 dataset=pydicom.dcmread(filename)
-#data=dataset.pixel_array
-#Leer Datos
-#print("La imagen tiene {} x {} pixels".format(data.shape[0],data.shape[1]))
+data=dataset.pixel_array
+# Leer Datos
+print("La imagen tiene {} x {} pixels".format(data.shape[0],data.shape[1]))
     
 print("Nombre del paciente: ", dataset.PatientName)
 print("Número de identificación: ", dataset.PatientID)

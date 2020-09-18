@@ -10,9 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import glob
 
-
-
-    
+ 
 
     
 def open_file(file=None):    
@@ -57,7 +55,7 @@ def graf_img(dataset):
     plt.show()
     
     
-dataset=open_file("1DCM.dcm")
+dataset=open_file("slices/series 002[CT-Crane SPC]/1.3.6.1.4.1.5962.99.1.2786334768.1849416866.1385765836848.6.0.dcm")
 info_img(dataset)
 graf_img(dataset)
 save_dataset(dataset)
