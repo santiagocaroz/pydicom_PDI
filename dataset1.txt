@@ -1,0 +1,95 @@
+Dataset.file_meta -------------------------------
+(0002, 0000) File Meta Information Group Length  UL: 166
+(0002, 0001) File Meta Information Version       OB: b'\x00\x01'
+(0002, 0002) Media Storage SOP Class UID         UI: Computed Radiography Image Storage
+(0002, 0003) Media Storage SOP Instance UID      UI: 1.2.840.113564.54.192.168.1.46.5172.20191116134644202
+(0002, 0010) Transfer Syntax UID                 UI: Explicit VR Little Endian
+(0002, 0012) Implementation Class UID            UI: 1.2.840.113564.86.2
+-------------------------------------------------
+(0008, 0000) Group Length                        UL: 460
+(0008, 0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008, 0008) Image Type                          CS: ['DERIVED', 'PRIMARY']
+(0008, 0016) SOP Class UID                       UI: Computed Radiography Image Storage
+(0008, 0018) SOP Instance UID                    UI: 1.2.840.113564.54.192.168.1.46.5172.20191116134644202
+(0008, 0020) Study Date                          DA: '20191116'
+(0008, 0021) Series Date                         DA: '20191116'
+(0008, 0022) Acquisition Date                    DA: '20191116'
+(0008, 0023) Content Date                        DA: '20191116'
+(0008, 0030) Study Time                          TM: '134644'
+(0008, 0031) Series Time                         TM: '134644'
+(0008, 0032) Acquisition Time                    TM: '134644'
+(0008, 0033) Content Time                        TM: '134644'
+(0008, 0050) Accession Number                    SH: 'ACCNO000401'
+(0008, 0060) Modality                            CS: 'CR'
+(0008, 0068) Presentation Intent Type            CS: 'FOR PRESENTATION'
+(0008, 0070) Manufacturer                        LO: 'Carestream Health'
+(0008, 0080) Institution Name                    LO: 'Carestream Health R&D Hospital'
+(0008, 0090) Referring Physician's Name          PN: ''
+(0008, 1010) Station Name                        SH: 'ImageSuiteWSD'
+(0008, 1030) Study Description                   LO: ''
+(0008, 103e) Series Description                  LO: ''
+(0008, 1040) Institutional Department Name       LO: ''
+(0008, 1048) Physician(s) of Record              PN: ''
+(0008, 1070) Operators' Name                     PN: 'admin'
+(0008, 1090) Manufacturer's Model Name           LO: 'Image Suite Vita CR System'
+(0010, 0000) Group Length                        UL: 90
+(0010, 0010) Patient's Name                      PN: 'CARO ZAPATA^SANTIAGO^'
+(0010, 0020) Patient ID                          LO: '1035440607'
+(0010, 0030) Patient's Birth Date                DA: '19980812'
+(0010, 0040) Patient's Sex                       CS: 'M'
+(0010, 1000) Other Patient IDs                   LO: ''
+(0010, 1010) Patient's Age                       AS: '021Y'
+(0010, 21b0) Additional Patient History          LT: ''
+(0010, 2203) Patient's Sex Neutered              CS: ''
+(0010, 4000) Patient Comments                    LT: ''
+(0011, 0000) Private Creator                     UL: 41274
+(0011, 101e) Private tag data                    LO: 'PELVIS'
+(0011, 101f) Private tag data                    LO: 'AP'
+(0011, 1032) Private tag data                    LT: ''
+(0018, 0000) Group Length                        UL: 168
+(0018, 0015) Body Part Examined                  CS: 'PELVIS'
+(0018, 1004) Plate ID                            LO: '00974033554310010'
+(0018, 1164) Imager Pixel Spacing                DS: [0.160003, 0.160114]
+(0018, 1403) Cassette Size                       CS: '14INX17IN'
+(0018, 1405) Relative X-Ray Exposure             IS: "2824"
+(0018, 1411) Exposure Index                      DS: "6777.15335763812"
+(0018, 1412) Target Exposure Index               DS: "382.53"
+(0018, 1413) Deviation Index                     DS: "12.4838181277043"
+(0018, 5100) Patient Position                    CS: ''
+(0018, 5101) View Position                       CS: 'AP'
+(0020, 0000) Group Length                        UL: 152
+(0020, 000d) Study Instance UID                  UI: 1.2.840.113564.50.25.20191116133035468.10240
+(0020, 000e) Series Instance UID                 UI: 1.2.840.113564.52.192.168.1.46.5172.20191116134644202
+(0020, 0010) Study ID                            SH: ''
+(0020, 0011) Series Number                       IS: "1"
+(0020, 0013) Instance Number                     IS: "1"
+(0020, 0062) Image Laterality                    CS: 'U'
+(0027, 0000) Private Creator                     UL: 228
+(0027, 8026) Private tag data                    UN: b'1.10.0.1'
+(0027, 8028) Private tag data                    UN: Array of 58 elements
+(0027, 8032) Private tag data                    UN: b'0,0,0,0 '
+(0027, 9046) Private tag data                    UN: b'00'
+(0027, 9050) Private tag data                    UN: b'LR'
+(0027, 90ee) Private tag data                    UN: None
+(0027, 99aa) Private tag data                    UN: Array of 22 elements
+(0027, 9a10) Private tag data                    UN: b'ScannerType_145 '
+(0027, 9a20) Private tag data                    UN: b'User'
+(0028, 0000) Group Length                        UL: 188
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0010) Rows                                US: 2180
+(0028, 0011) Columns                             US: 2660
+(0028, 0034) Pixel Aspect Ratio                  IS: [1, 1]
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 12
+(0028, 0102) High Bit                            US: 11
+(0028, 0103) Pixel Representation                US: 0
+(0028, 0106) Smallest Image Pixel Value          US: 0
+(0028, 0107) Largest Image Pixel Value           US: 4095
+(0028, 1050) Window Center                       DS: "2048.0"
+(0028, 1051) Window Width                        DS: "4096.0"
+(0028, 1052) Rescale Intercept                   DS: "0.0"
+(0028, 1053) Rescale Slope                       DS: "1.0"
+(0028, 1054) Rescale Type                        LO: 'US'
+(7fe0, 0000) Group Length                        UL: 11597612
+(7fe0, 0010) Pixel Data                          OW: Array of 11597600 elements
